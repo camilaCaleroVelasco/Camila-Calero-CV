@@ -1,0 +1,126 @@
+.three-col{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.card{
+    width: 325px;
+    border-radius: 8px;
+    margin: 20px;
+    padding: 20px;
+    background-color: whitesmoke;
+    overflow: hidden;
+    box-shadow: 5px 5px 9px rgba(0, 0, 0, 0.2);
+    border: 1px solid #ddd;
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  .card:hover{
+    transform: scale(1.05) rotate(4deg);
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .card h3{
+    color: #D6b85a;;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .about-camila ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+
+  .about-camila li{
+    color: #563d2d;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .about-camila dl {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+  }
+
+.about-camila dt,
+.about-camila dd {
+  padding-left: 90px;
+  text-align: left;
+  white-space: nowrap;
+  color: #563d2d;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.one-col {
+    width: 325px;
+    border-radius: 8px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    overflow: hidden;
+    box-shadow: 2px 5px 6px rgba(0, 0, 0, 0.2);
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.one-col{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #563d2d;
+   position: relative;
+   margin: 0 auto;
+   width: 500px;
+   transition: transform 0.3s;
+}
+.one-col:hover{
+  transform: scale(1.05);
+}
+
+.name, textarea, .email{
+
+  width: 55%;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  
+  color: #563d2d;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  
+}
+
+.name:focus, 
+textarea:focus, 
+.email:focus{
+  outline:2px solid #D6b85a;
+  
+}
+
+textarea{
+  resize: vertical;
+  height: 50px;
+}
+
+
+
+.button{
+  background-color: #D6b85a;
+  border: #D6b85a;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.button:hover{
+  background-color: #c66d97;
+  cursor: pointer;
+}

@@ -1,0 +1,138 @@
+body{
+  margin: 0;
+  background-color: #fef0f5 ;
+}
+
+nav{ /* Styles the navigation line*/
+  width: 100%;
+  padding: 10px;
+  background-color: lightgray;
+  display: flex;
+  justify-content: end;
+  border-bottom: 5px solid pink;
+}
+
+nav a{ /*styles the link of navigation*/
+ color: #563d2d;
+ text-decoration: none;
+ font-family: Arial, Helvetica, sans-serif;
+ margin-right: 15px;
+}
+nav a:hover { /*allows for the link to hover over*/
+  color: white;
+}
+
+footer { /*styles the footer*/
+  width: 100%;
+  padding: 10px;
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  border-top: 5px solid pink;
+}
+
+footer a { /*styles the link of footer*/
+  color: #563d2d;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+footer a:hover { /*allows for the link to hover over*/
+  color: white;
+}
+
+.intro-camila{
+  background-image: url(back-Images/Green\ Pink\ Minimalist\ Doodle\ A4\ Document.png);
+  padding: 150px;
+  color: #D6b85a;
+}
+.flowers{
+  position: absolute;
+  bottom: 10;
+  right: 0;
+  
+  border-radius: 50%;
+}
+
+.butterfly{
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  border-radius: 100%;
+  
+}
+
+.intro-camila h1 {
+  padding: 10px;
+  text-align: center;
+  font-family: 'Cedarville Cursive', cursive;
+  font-size: 30px; 
+}
+.intro-camila h2{
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Afacad', sans-serif;
+
+  
+}
+
+.about-camila{
+  background-color: #fef0f5;
+  padding: 20px; 
+}
+.headshot{
+  display: block;
+  margin-left: 40%;
+  margin-right: 50%;
+  border-radius: 50%;
+  width: 20%;
+}
+.about-camila a{
+  color: #ff0075;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.about-camila a:hover {
+  color: #563d2d;
+}
+
+.about-camila h2{
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Afacad', sans-serif;
+  color: #D6b85a;
+}
+
+.about-camila p{
+  text-align: center;
+  color: #563d2d;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+}
+
+.first-section{
+  padding: 50px;
+  color: #D6b85a;
+}
+
+.first-section h1{
+  padding: 10px;
+  text-align: center;
+  font-family: 'Cedarville Cursive', cursive;
+  font-size: 40px;
+
+}
+.first-section p{
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Afacad', sans-serif;
+}
+
+hr{
+  width: 70%;
+  border-top: 3px dotted #ff0075;
+}
